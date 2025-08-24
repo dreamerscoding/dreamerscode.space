@@ -1,6 +1,5 @@
 body {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin: 2% 15% 2% 15%;
 	padding: 0px;
 	text-align: center;
 	border: 2px dashed #0B0514;
@@ -11,7 +10,7 @@ body {
 main {
 	background: #F1EBFA;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 0px;
 	height: 600px;
 }
 nav {
@@ -24,17 +23,37 @@ nav {
 a {
 	background: #33195C;
 	color: #D7C7F0;
+	border: 2px dashed #160A29;
 	border-radius: 0px 5px 5px 0px;
+	border-left: none;
 	padding: 10px;
 	text-decoration: none;
 	font-size: 1.75em;
-	margin: 5px 0px 5px 0px;
+	margin: 10px 0px 10px 0px;
+	font-family: "Jersey 10", sans-serif;
 }
 a:hover {
 	background: #D7C7F0;
 	color: #33195C;
-	border: 2px dashed #33195C;
-	border-left: none;
+	font-family: "Jersey 10", sans-serif;
+}
+#feedbox {
+	float: right;
+	background: #33195C;
+	width: 25%;
+	height: 100%;
+	border-radius: 5px 0px 0px 5px;
+	color: #D7C7F0;
+}
+#feed {
+	color: #160A29;
+	overflow: scroll;
+	scrollbar-color: rgba(236, 233, 242, .5) rgba(32, 26, 44, 0);
+	margin: 15px;
+	background: #BBB0D1;
+	height: 75%;
+	border: 2px dashed white;
+	padding: 5px;
 }
 
 
