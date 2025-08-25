@@ -55,5 +55,26 @@ a:hover {
 	border: 2px dashed white;
 	padding: 5px;
 }
-
-
+h2 {
+	font-family: "Jersey 10", sans-serif;
+	font-size: 2em;
+}
+section {
+	border: 2px dashed #160A29;
+	padding: 10px;
+	float: right;
+	left: 20px;
+	width: 75%;
+	height: 92%;
+	margin: 10px 10px 10px 10px;
+}
+article {
+	border: 2px dashed #160A29;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+}
+article h2 {
+	font-size: 1.5em;
+	line-height: 10px;
+}
