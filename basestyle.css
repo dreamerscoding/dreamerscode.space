@@ -2,13 +2,13 @@ body {
 	margin: 2% 15% 2% 15%;
 	padding: 0px;
 	text-align: center;
-	border: 2px dashed #0B0514;
-	background: #A37FDC;
+	background: #33195C;
 	border-radius: 5px;
 	font-size: 1.2em;
+	font-family: "Jersey 10", sans-serif;
 }
 main {
-	background: #F1EBFA;
+	background: #BBB0D1;
 	border-radius: 5px;
 	padding: 0px;
 	height: 600px;
@@ -20,11 +20,11 @@ nav {
 	top: 20px;
 	text-align: left;
 }
-a {
+nav a {
 	background: #33195C;
 	color: #D7C7F0;
-	border: 2px dashed #160A29;
-	border-radius: 0px 5px 5px 0px;
+	border: 2px dashed #D7C7F0;
+	border-radius: 0px 10px 10px 0px;
 	border-left: none;
 	padding: 10px;
 	text-decoration: none;
@@ -32,10 +32,12 @@ a {
 	margin: 10px 0px 10px 0px;
 	font-family: "Jersey 10", sans-serif;
 }
-a:hover {
+nav a:hover {
 	background: #D7C7F0;
 	color: #33195C;
 	font-family: "Jersey 10", sans-serif;
+	border: 2px dashed #33195C;
+	border-left: none;
 }
 #feedbox {
 	float: right;
@@ -51,6 +53,7 @@ a:hover {
 	scrollbar-color: rgba(236, 233, 242, .5) rgba(32, 26, 44, 0);
 	margin: 15px;
 	background: #BBB0D1;
+	background: linear-gradient(180deg,rgba(215, 199, 240, 1) 0%, rgba(51, 25, 92, 1) 100%);
 	height: 75%;
 	border: 2px dashed white;
 	padding: 5px;
@@ -77,4 +80,52 @@ article {
 article h2 {
 	font-size: 1.5em;
 	line-height: 10px;
+}
+#bio p {
+	padding: 5px;
+	border-top: 3px dashed #160A29;
+	padding-top: 10px;
+	text-align: left;
+	font-family: "Jersey 10", sans-serif;
+	font-size: 30px;
+	text-shadow: 2px 2px rgba(61, 41, 255, 0.3);
+}
+::selection {
+	color: #33195C;
+	background: #D7C7F0;
+}
+#feedbox a {
+	background: none;
+	color: #5A1DF5;
+	border: none;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 1.2em;
+	margin: 0px;
+	font-family: "Jersey 10", sans-serif;
+}
+#feedbox a:hover {
+	text-decoration: underline;
+}
+#homepage {
+	position: absolute;
+	top: 7%;
+	left: 25%;
+	width: 40%;
+	height: 75%;
+}
+#homepage h1 {
+	font-family: "Jersey 10", sans-serif;
+	border: 3px dashed #D7C7F0;
+	color: #33195C;
+	background: rgba(50, 23, 128, 0.2);
+	padding: 2px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#homepage p {
+	text-align: left;
+	font-family: "Jersey 10", sans-serif;
+	font-size: 1.5em;
+	text-indent: 25px;
 }
